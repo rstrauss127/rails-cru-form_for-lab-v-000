@@ -1,4 +1,4 @@
 class Song < ApplicationRecord
-  def artist_of_song
-  end
+  belongs_to :artist
+  belongs_to :genre
 end
